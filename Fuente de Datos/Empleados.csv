@@ -1,4 +1,4 @@
-﻿ID_Empleado,Nombre_Empleado,Estado,Nacimiento,Genero,Departamento,Cargo,Jefe
+﻿ID,Nombre_Empleado,Estado,Nacimiento,Genero,Departamento,Cargo,Jefe
 1102024149,"Spirea, Kelley","California, Estados Unidos",28/09/1980,Female,Admin Offices,Administrative II,Elijiah Gray
 1001109612,"Darson, Jene'ya","California, Estados Unidos",10/05/1983,Female,Admin Offices,Administrative II,Elijiah Gray
 1000974650,"Stanley, David","Texas, Estados Unidos",16/12/1975,Male,Admin Offices,Manager,Debra Houlihan
@@ -193,3 +193,4 @@
 1410071137,"Sparks, Taylor","Texas, Estados Unidos",19/07/1973,Female,Software Engineering,Engineer I,Alex Sweetwater
 1599991009,"Cockel, James","Texas, Estados Unidos",8/08/1982,Male,Software Engineering,Engineer I,Alex Sweetwater
 1001644719,"Sweetwater, Alex","Massachusetts, Estados Unidos",21/11/1961,Male,Software Engineering     ,Manager,Janet King
+
