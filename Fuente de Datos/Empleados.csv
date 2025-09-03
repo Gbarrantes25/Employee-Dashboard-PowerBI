@@ -1,0 +1,195 @@
+﻿ID_Empleado,Nombre_Empleado,Estado,Nacimiento,Genero,Departamento,Cargo,Jefe
+1102024149,"Spirea, Kelley","California, Estados Unidos",28/09/1980,Female,Admin Offices,Administrative II,Elijiah Gray
+1001109612,"Darson, Jene'ya","California, Estados Unidos",10/05/1983,Female,Admin Offices,Administrative II,Elijiah Gray
+1000974650,"Stanley, David","Texas, Estados Unidos",16/12/1975,Male,Admin Offices,Manager,Debra Houlihan
+1206043417,"Quinn, Sean","Massachusetts, Estados Unidos",10/06/1969,Male,Admin Offices,Manager,Janet King
+1307060188,"Boutwell, Bonalyn","California, Estados Unidos",2/04/1972,Female,Admin Offices,Manager,Elijiah Gray
+1011022932,"Hendrickson, Trina","California, Estados Unidos",26/08/1977,Female,Admin Offices,Administrative II,Elijiah Gray
+1101023619,"Wallace, Theresa","California, Estados Unidos",6/02/1985,Female,Admin Offices,Administrative II,Elijiah Gray
+1107027575,"LeBel, Jonathan R.","California, Estados Unidos",17/10/1986,Male,Admin Offices,Administrative II,Elijiah Gray
+1102024115,"LeBlanc, Brandon","Massachusetts, Estados Unidos",5/10/1969,Male,Admin Offices,Manager,Janet King
+1105026041,"Gaul, Barbara","California, Estados Unidos",11/02/1968,Female,Admin Offices,Administrative II,Elijiah Gray
+1102024121,"Motlagh, Dawn","California, Estados Unidos",6/07/1989,Female,Admin Offices,Administrative II,Elijiah Gray
+1302053333,"Steans, Tyrone","California, Estados Unidos",8/01/1971,Male,Admin Offices,Administrative II,Elijiah Gray
+1302053362,"Sander, Kamrin","California, Estados Unidos",6/10/1993,Female,Admin Offices,Administrative I,Elijiah Gray
+1405067565,"Linden, Mathew","California, Estados Unidos",17/03/1984,Male,Admin Offices,Administrative I,Elijiah Gray
+1106026579,"Gordon, David","Texas, Estados Unidos",19/05/1984,Male,Admin Offices,Administrative II,David Stanley
+1107027450,"Jung, Judy","California, Estados Unidos",16/04/1991,Female,Admin Offices,Administrative I,Elijiah Gray
+1408069481,"Dietrich, Jenna","California, Estados Unidos",12/05/1992,Female,Admin Offices,Administrative I,Elijiah Gray
+1011022818,"Walker, Roger","California, Estados Unidos",1/10/1981,Male,Admin Offices,Administrative I,Elijiah Gray
+1201031308,"Foster-Baker, Amy","Texas, Estados Unidos",15/04/1974,Female,Admin Offices,Manager,David Stanley
+1001944783,"Hogland, Jonathan","Massachusetts, Estados Unidos",5/01/1977,Male,Admin Offices,Administrative II,Brandon R. LeBlanc
+1405067298,"Sullivan, Kissy","Massachusetts, Estados Unidos",27/03/1983,Female,Admin Offices,Administrative II,Brandon R. LeBlanc
+1103024456,"Brown, Mia","Massachusetts, Estados Unidos",23/11/1990,Female,Admin Offices,Administrative II,Brandon R. LeBlanc
+1307059817,"Singh, Nan","Massachusetts, Estados Unidos",18/05/1993,Female,Admin Offices,Administrative I,Brandon R. LeBlanc
+1111030684,"Nguyen, Dheepa","Massachusetts, Estados Unidos",30/03/1994,Female,Admin Offices,Administrative I,Brandon R. LeBlanc
+1409070147,"Dunn, Amy","Texas, Estados Unidos",27/11/1978,Female,Admin Offices,Manager,Debra Houlihan
+1499902991,"Robertson, Peter","Massachusetts, Estados Unidos",6/03/1977,Male,Admin Offices,Administrative I,Brandon R. LeBlanc
+812011761,"Ozark, Travis","Massachusetts, Estados Unidos",18/05/1987,Male,Admin Offices,Administrative I,Brandon R. LeBlanc
+1101023457,"Buccheri, Joseph","Massachusetts, Estados Unidos",26/07/1968,Male,Admin Offices,Administrative I,Brandon R. LeBlanc
+711007713,"Smith, Leigh Ann","Massachusetts, Estados Unidos",12/06/1972,Female,Admin Offices,Administrative I,Brandon R. LeBlanc
+1304055947,"Anderson, Linda","Texas, Estados Unidos",21/05/1982,Female,Admin Offices,Administrative II,David Stanley
+1106026572,"LaRotonda, William","Texas, Estados Unidos",25/04/1969,Male,Admin Offices,Administrative II,David Stanley
+1209049326,"McKinzie, Jac","Texas, Estados Unidos",5/01/1969,Male,Admin Offices,Administrative I,David Stanley
+1412071660,"Leruth, Giovanni","Texas, Estados Unidos",26/12/1993,Male,Admin Offices,Administrative I,David Stanley
+1312063714,"Valentin, Jackie","Texas, Estados Unidos",21/05/1996,Female,Admin Offices,Administrative I,David Stanley
+1211050782,"Howard, Estelle","Texas, Estados Unidos",15/09/1970,Female,Admin Offices,Administrative I,David Stanley
+1001495124,"King, Janet","Massachusetts, Estados Unidos",20/09/1959,Female,Executive Office,Director,Board of Directors
+1112030816,"Zamora, Jennifer","California, Estados Unidos",29/08/1954,Female,Executive Office,Director,Board of Directors
+1403065721,"Carter, Michelle","California, Estados Unidos",13/05/1968,Female,Executive Office,Director,Board of Directors
+1209048771,"Martins, Joseph","Texas, Estados Unidos",5/11/1955,Male,Executive Office,Director,Board of Directors
+1009021646,"Houlihan, Debra","Texas, Estados Unidos",16/03/1961,Female,Executive Office,Director,Board of Directors
+1499902910,"Smith, John","Massachusetts, Estados Unidos",15/08/1969,Male,Executive Office,Director,Board of Directors
+1306059197,"Digitale, Alfred","California, Estados Unidos",13/09/1973,Male,Executive Office,Director,Board of Directors
+1192991000,"Foss, Jason","California, Estados Unidos",6/05/1955,Male,Information Technlogy,Director,Jennifer Zamora
+1101023754,"Dougall, Eric","California, Estados Unidos",6/09/1965,Male,Information Technlogy,Manager,Jennifer Zamora
+1106026933,"Roup, Simon","Massachusetts, Estados Unidos",2/05/1968,Male,Information Technlogy,Manager,Janet King
+1001175250,"Ruiz, Ricardo","California, Estados Unidos",31/03/1969,Male,Information Technlogy,Manager,Jennifer Zamora
+1307060199,"Ait Sidi, Karthikeyan","Massachusetts, Estados Unidos",3/05/1980,Male,Information Technlogy,Engineer II,Simon Roup
+1010022337,"Carr, Claudia","Massachusetts, Estados Unidos",5/06/1991,Female,Information Technlogy,Engineer II,Simon Roup
+1111030266,"Roehrich, Bianca","Massachusetts, Estados Unidos",26/05/1978,Female,Information Technlogy,Engineer II,Simon Roup
+1412071562,"Favis, Donald","California, Estados Unidos",29/07/1969,Male,Information Technlogy,Engineer II,Simon Roup
+1011022863,"Monroe, Peter","Texas, Estados Unidos",9/05/1961,Male,Information Technlogy,Manager,Debra Houlihan
+1108028108,"Lajiri, Jyoti","Texas, Estados Unidos",22/04/1991,Male,Information Technlogy,Engineer II,Peter Monroe
+1301052347,"Warfield, Sarah","Texas, Estados Unidos",4/02/1983,Female,Information Technlogy,Engineer II,Peter Monroe
+1411071312,"Daniele, Ann","Texas, Estados Unidos",16/01/1957,Female,Information Technlogy,Engineer II,Peter Monroe
+904013591,"Semizoglou, Jeremiah","Texas, Estados Unidos",31/08/1988,Male,Information Technlogy,Engineer II,Peter Monroe
+1308060959,"South, Joe","Texas, Estados Unidos",8/09/1970,Male,Information Technlogy,Engineer II,Peter Monroe
+905013738,"Goble, Taisha","Massachusetts, Estados Unidos",21/10/1976,Female,Information Technlogy,Engineer I,Simon Roup
+1411071506,"Turpin, Jumil","Texas, Estados Unidos",30/03/1974,Male,Information Technlogy,Engineer I,Peter Monroe
+1111030148,"Salter, Jason","Massachusetts, Estados Unidos",15/12/1992,Male,Information Technlogy,Engineer I,Simon Roup
+1102024056,"Becker, Renee","Massachusetts, Estados Unidos",3/04/1991,Female,Information Technlogy,Engineer I,Simon Roup
+906014183,"Shepard, Anita","Texas, Estados Unidos",13/04/1986,Female,Information Technlogy,Engineer I,Peter Monroe
+1108027853,"Petrowsky, Thelma","Massachusetts, Estados Unidos",15/09/1989,Female,Information Technlogy,Engineer I,Simon Roup
+1203032255,"Rogers, Ivan","Massachusetts, Estados Unidos",25/08/1991,Male,Information Technlogy,Engineer I,Simon Roup
+1212052023,"Bacong, Alejandro","Texas, Estados Unidos",30/06/1993,Male,Information Technlogy,Engineer I,Peter Monroe
+1102023965,"Pearson, Randall","Massachusetts, Estados Unidos",8/05/1989,Male,Information Technlogy,Engineer I,Simon Roup
+1410071156,"Hernandez, Daniff","Massachusetts, Estados Unidos",7/07/1991,Male,Information Technlogy,Engineer I,Simon Roup
+1003018246,"Johnson, Noelle","Massachusetts, Estados Unidos",10/07/1991,Female,Information Technlogy,Engineer I,Simon Roup
+1407068885,"Roby, Lori","Massachusetts, Estados Unidos",9/11/1986,Female,Information Technlogy,Engineer I,Simon Roup
+1012023013,"Merlos, Carlos","Texas, Estados Unidos",16/06/1992,Male,Information Technlogy,Engineer I,Peter Monroe
+1105025718,"Horton, Jayne","Massachusetts, Estados Unidos",19/02/1989,Female,Information Technlogy,Engineer I,Simon Roup
+1102024173,"Cisco, Anthony","Texas, Estados Unidos",23/11/1994,Male,Information Technlogy,Engineer I,Peter Monroe
+1110029732,"Zhou, Julia","Massachusetts, Estados Unidos",23/02/1984,Female,Information Technlogy,Engineer I,Simon Roup
+1501072093,"Galia, Lisa","California, Estados Unidos",6/06/1973,Female,Information Technlogy,Engineer I,Eric Dougall
+808010278,"Simard, Kramer","Massachusetts, Estados Unidos",1/08/1975,Male,Information Technlogy,Engineer I,Simon Roup
+1301052902,"Clayton, Rick","California, Estados Unidos",8/05/1990,Male,Information Technlogy,Engineer I,Eric Dougall
+1988299991,"Gonzalez, Maria","Texas, Estados Unidos",15/04/1986,Female,Information Technlogy,Engineer I,Peter Monroe
+1203032263,"Soto, Julia","California, Estados Unidos",2/12/1978,Female,Information Technlogy,Engineer I,Eric Dougall
+602000312,"Lindsay, Leonara","California, Estados Unidos",9/05/1993,Female,Information Technlogy,Engineer I,Eric Dougall
+1101023540,"Dolan, Linda","Texas, Estados Unidos",17/07/1993,Female,Information Technlogy,Engineer I,Peter Monroe
+1406068403,"Murray, Thomas","Texas, Estados Unidos",6/04/1993,Male,Information Technlogy,Engineer I,Simon Roup
+1104025466,"Tredinnick, Neville","Texas, Estados Unidos",4/05/1993,Male,Information Technlogy,Engineer I,Peter Monroe
+1001956578,"Morway, Tanya","Texas, Estados Unidos",2/04/1984,Female,Information Technlogy,Engineer I,Peter Monroe
+1103024679,"Liebig, Ketsia","California, Estados Unidos",25/10/1986,Female,Production       ,Manager,Jennifer Zamora
+1307060077,"Gray, Elijiah","California, Estados Unidos",6/11/1986,Male,Production       ,Manager,Jennifer Zamora
+1104025179,"Demita, Carla","California, Estados Unidos",24/02/1956,Female,Production       ,Technician II,Kelley Spirea
+1006020066,"Bramante, Elisa","Massachusetts, Estados Unidos",18/03/1958,Female,Production       ,Director,Janet King
+1303054329,"Beak, Kimberly","California, Estados Unidos",16/04/1971,Female,Production       ,Technician II,Kelley Spirea
+1308060622,"Gerke, Melisa","California, Estados Unidos",14/05/1975,Female,Production       ,Technician II,Elijiah Gray
+1407069061,"Sutwell, Barbara","California, Estados Unidos",14/08/1973,Female,Production       ,Technician II,Elijiah Gray
+1301052449,"Burkett, Benjamin","California, Estados Unidos",18/08/1982,Male,Production       ,Technician II,Kelley Spirea
+1403066194,"Beatrice, Courtney","California, Estados Unidos",26/10/1975,Female,Production       ,Technician II,Elijiah Gray
+1109029531,"Panjwani, Nina","California, Estados Unidos",4/01/1964,Female,Production       ,Technician II,Elijiah Gray
+1411071406,"Peters, Lauren","California, Estados Unidos",16/08/1971,Female,Production       ,Technician II,Kelley Spirea
+1107027351,"Miller, Brannon","Texas, Estados Unidos",7/10/1986,Male,Production       ,Manager,Debra Houlihan
+1106026462,"Sahoo, Adil","California, Estados Unidos",25/04/1971,Male,Production       ,Technician II,Kelley Spirea
+1106026896,"Stoica, Rick","California, Estados Unidos",13/03/1990,Male,Production       ,Technician I,Kelley Spirea
+1406068241,"Harrell, Ludwick","California, Estados Unidos",8/02/1987,Male,Production       ,Technician I,Elijiah Gray
+1011022883,"Alagbe, Trina","California, Estados Unidos",26/09/1993,Female,Production       ,Technician I,Elijiah Gray
+1011022814,"Volk, Colleen","California, Estados Unidos",5/03/1991,Female,Production       ,Technician I,Kelley Spirea
+1211050793,"Rhoads, Thomas","California, Estados Unidos",21/07/1987,Male,Production       ,Technician I,Elijiah Gray
+1311063114,"Carey, Michael","California, Estados Unidos",1/02/1988,Male,Production       ,Technician I,Kelley Spirea
+1411071212,"Gonzalez, Cayo","Texas, Estados Unidos",28/09/1974,Male,Production       ,Technician II,Brannon Miller
+1107027392,"Evensen, April","California, Estados Unidos",4/06/1994,Female,Production       ,Technician I,Elijiah Gray
+1402065355,"Peterson, Ebonee","Massachusetts, Estados Unidos",4/09/1982,Female,Production       ,Manager,Janet King
+1410071026,"Wallace, Courtney","Massachusetts, Estados Unidos",12/11/1960,Female,Production       ,Manager,Janet King
+1403065874,"Immediato, Walter","Massachusetts, Estados Unidos",14/11/1981,Male,Production       ,Manager,Janet King
+1303054580,"Bozzi, Charles","Massachusetts, Estados Unidos",2/10/1975,Male,Production       ,Manager,Janet King
+1110029990,"Butler, Webster","Massachusetts, Estados Unidos",6/09/1968,Male,Production       ,Manager,Janet King
+1501072311,"Albert, Michael","Massachusetts, Estados Unidos",9/10/1973,Male,Production       ,Manager,Janet King
+1001856521,"Oliver, Brooke","Massachusetts, Estados Unidos",1/11/1957,Female,Production       ,Technician II,Webster Butler
+1301052436,"Moumanil, Maliki","Massachusetts, Estados Unidos",11/01/1979,Male,Production       ,Technician II,Michael Albert
+1110029623,"Manchester, Robyn","Massachusetts, Estados Unidos",24/08/1981,Female,Production       ,Technician II,Webster Butler
+1403066125,"Blount, Dianna","Massachusetts, Estados Unidos",20/09/1975,Female,Production       ,Technician II,Michael Albert
+1108028351,"Gosciminski, Phylicia","Massachusetts, Estados Unidos",10/08/1968,Female,Production       ,Technician II,Kissy Sullivan
+1103024924,"Hutter, Rosalie","Massachusetts, Estados Unidos",4/07/1977,Female,Production       ,Technician II,Webster Butler
+1206038000,"Robinson, Alain","Texas, Estados Unidos",30/06/1979,Male,Production       ,Technician II,Amy Dunn
+1104025486,"Latif, Mohammed","Massachusetts, Estados Unidos",4/09/1969,Male,Production       ,Technician II,Kissy Sullivan
+1012023010,"Woodson, Jason","Massachusetts, Estados Unidos",4/11/1970,Male,Production       ,Technician II,Kissy Sullivan
+1012023103,"Sloan, Constance","Massachusetts, Estados Unidos",23/11/1992,Female,Production       ,Technician I,Michael Albert
+903013071,"Kirill, Alexandra","Texas, Estados Unidos",9/08/1975,Female,Production       ,Technician II,Amy Dunn
+1404066739,"Theamstern, Sophia","Texas, Estados Unidos",4/09/1970,Female,Production       ,Technician II,Amy Dunn
+1409070255,"Tippett, Jeanette","Texas, Estados Unidos",4/05/1972,Female,Production       ,Technician II,Brannon Miller
+1101023839,"Wilber, Barry","Texas, Estados Unidos",8/09/1970,Male,Production       ,Technician II,Amy Dunn
+1501072124,"Desimone, Carl","Texas, Estados Unidos",17/04/1972,Male,Production       ,Technician II,Amy Dunn
+1201031032,"MacLennan, Samuel","Texas, Estados Unidos",10/09/1977,Male,Production       ,Technician II,Amy Dunn
+1006020020,"Fidelia, Libby","Texas, Estados Unidos",15/03/1966,Female,Production       ,Technician II,Brannon Miller
+1407069280,"Clukey, Elijian","Texas, Estados Unidos",25/08/1985,Male,Production       ,Technician II,Brannon Miller
+1404066622,"Harrison, Kara","Texas, Estados Unidos",4/02/1979,Female,Production       ,Technician II,Amy Dunn
+1308060754,"Mangal, Debbie","Texas, Estados Unidos",10/07/1979,Female,Production       ,Technician II,Brannon Miller
+1405067138,"Squatrito, Kristen","Texas, Estados Unidos",25/03/1978,Female,Production       ,Technician II,Amy Dunn
+1201031438,"Jackson, Maryellen","Texas, Estados Unidos",8/11/1977,Female,Production       ,Technician II,Amy Dunn
+1204033040,"Ndzi, Horia","Texas, Estados Unidos",26/03/1988,Male,Production       ,Technician I,Amy Dunn
+1109029186,"Perry, Shakira","Texas, Estados Unidos",19/07/1991,Female,Production       ,Technician I,Amy Dunn
+1212051409,"Bachiochi, Linda","Texas, Estados Unidos",1/11/1995,Female,Production       ,Technician I,Brannon Miller
+1209048696,"DiNocco, Lily","Texas, Estados Unidos",11/02/1994,Female,Production       ,Technician I,Brannon Miller
+1001268402,"Ybarra, Catherine","Texas, Estados Unidos",4/04/1987,Female,Production       ,Technician I,Brannon Miller
+1401064327,"Maurice, Shana","Texas, Estados Unidos",21/11/1982,Female,Production       ,Technician II,Amy Dunn
+710007555,"Rose, Ashley","Texas, Estados Unidos",11/05/1979,Female,Production       ,Technician II,Brannon Miller
+1012023152,"Trang, Mei","Texas, Estados Unidos",14/05/1988,Female,Production       ,Technician I,Brannon Miller
+1101023394,"Chivukula, Enola","Texas, Estados Unidos",25/08/1988,Female,Production       ,Technician I,Amy Dunn
+1311062610,"Kretschmer, John","Texas, Estados Unidos",1/02/1995,Male,Production       ,Technician I,Brannon Miller
+1406068293,"Brill, Donna","Texas, Estados Unidos",23/08/1995,Female,Production       ,Technician I,Brannon Miller
+1203032357,"Nguyen, Lei-Ming","Texas, Estados Unidos",6/07/1989,Female,Production       ,Technician I,Brannon Miller
+1309061015,"Garcia, Raul","Texas, Estados Unidos",14/09/1990,Male,Production       ,Technician I,Brannon Miller
+1302053339,"Fernandes, Nilson","Texas, Estados Unidos",17/10/1994,Male,Production       ,Technician I,Amy Dunn
+1305057440,"Pham, Hong","Texas, Estados Unidos",2/06/1993,Male,Production       ,Technician I,Brannon Miller
+1011022887,"Robinson, Elias","Texas, Estados Unidos",27/01/1990,Male,Production       ,Technician I,Brannon Miller
+1304055987,"Langton, Enrico","Texas, Estados Unidos",11/09/1991,Male,Production       ,Technician I,Brannon Miller
+1001735072,"Wilson, Brad","Texas, Estados Unidos",21/11/1996,Male,Production       ,Technician I,Amy Dunn
+1202031618,"Dobrin, Denisa","Texas, Estados Unidos",9/07/1991,Female,Production       ,Technician I,Amy Dunn
+1204032927,"Girifalco, Evelyn","Texas, Estados Unidos",4/08/1995,Female,Production       ,Technician I,Amy Dunn
+1308060366,"Billis, Helen","Texas, Estados Unidos",8/01/1994,Female,Production       ,Technician I,Brannon Miller
+1408069882,"Ivey, Rose","Texas, Estados Unidos",27/01/1996,Female,Production       ,Technician I,Brannon Miller
+1205033102,"Shields, Seffi","Texas, Estados Unidos",23/08/1990,Female,Production       ,Technician I,Amy Dunn
+1211051232,"Zima, Colleen","Texas, Estados Unidos",16/08/1997,Female,Production       ,Technician I,Amy Dunn
+1411071302,"Fraval, Maruk","California, Estados Unidos",26/08/1968,Male,Sales,Director,Jennifer Zamora
+1409070567,"Costa, Latia","California, Estados Unidos",10/08/1973,Female,Sales,Director,Jennifer Zamora
+1111030503,"Villanueva, Noah","Massachusetts, Estados Unidos",6/11/1974,Male,Sales,Director,Janet King
+1501072180,"Onque, Jasmine","Florida, Estados Unidos",4/11/1955,Female,Sales,Engineer II,Lynn Daneault
+1411071481,"Gonzales, Ricardo","Idaho, Estados Unidos",9/12/1959,Male,Sales,Engineer II,John Smith
+1306057978,"Mullaney, Howard","Texas, Estados Unidos",10/02/1980,Male,Sales,Engineer II,John Smith
+1204032843,"Friedman, Gerry","Nueva York, Estados Unidos",23/02/1974,Male,Sales,Engineer II,John Smith
+1504073313,"Buck, Edward","Massachusetts, Estados Unidos",5/07/1980,Male,Sales,Engineer II,Lynn Daneault
+1109029264,"Kampew, Donysha","Pennsylvania, Estados Unidos",9/11/1964,Female,Sales,Engineer II,John Smith
+1001167253,"Guilianno, Mike","Tennessee, Estados Unidos",1/09/1974,Male,Sales,Engineer II,John Smith
+1401064637,"Terry, Sharlene","Oregon, Estados Unidos",4/07/1970,Female,Sales,Engineer II,Lynn Daneault
+1001084890,"Prater, Jeremy","Nevada, Estados Unidos",4/09/1979,Male,Sales,Engineer II,Lynn Daneault
+1302053046,"Gill, Whitney","Ohio, Estados Unidos",6/10/1986,Female,Sales,Engineer II,John Smith
+1504073368,"Bunbury, Jessica","Virginia, Estados Unidos",4/01/1969,Female,Sales,Engineer II,John Smith
+1502072711,"Riordan, Michael","North Dakota, Estados Unidos",13/01/1973,Male,Sales,Engineer I,Lynn Daneault
+1104025008,"Khemmich, Bartholemew","Colorado, Estados Unidos",25/11/1984,Male,Sales,Engineer I,Lynn Daneault
+1411071295,"Strong, Caitrin","Montana, Estados Unidos",4/12/1987,Female,Sales,Engineer I,John Smith
+1203032099,"Givens, Myriam","Indiana, Estados Unidos",20/09/1988,Female,Sales,Engineer I,Lynn Daneault
+1402065303,"Daneault, Lynn","California, Estados Unidos",18/04/1985,Female,Sales,Engineer I,John Smith
+1102024106,"Potts, Xana","Texas, Estados Unidos",28/08/1983,Female,Sales,Engineer I,Lynn Daneault
+1203032498,"Del Bosque, Keyla","California, Estados Unidos",5/05/1984,Female,Software Engineering,Engineer II,Alex Sweetwater
+1303054625,"Martin, Sandra","California, Estados Unidos",9/07/1992,Female,Software Engineering,Engineer II,Alex Sweetwater
+1101023577,"Carabbio, Judith","Texas, Estados Unidos",2/05/1992,Female,Software Engineering,Engineer II,Alex Sweetwater
+1112030979,"Patronick, Luke","Massachusetts, Estados Unidos",19/02/1984,Male,Software Engineering,Engineer II,Alex Sweetwater
+1404066949,"Osturnka, Adeel","California, Estados Unidos",11/11/1981,Male,Software Engineering,Engineer II,Alex Sweetwater
+1403066020,"Ngodup, Shari ","Texas, Estados Unidos",4/03/1972,Female,Software Engineering,Engineer II,Alex Sweetwater
+1101023353,"Lydon, Allison","California, Estados Unidos",20/10/1980,Female,Software Engineering,Engineer I,Alex Sweetwater
+1201031324,"Szabo, Andrew","Massachusetts, Estados Unidos",3/06/1988,Male,Software Engineering,Engineer II,Alex Sweetwater
+1012023185,"Saada, Adell","Texas, Estados Unidos",23/07/1991,Female,Software Engineering,Engineer II,Alex Sweetwater
+1107027358,"Andreola, Colby","California, Estados Unidos",22/05/1984,Female,Software Engineering,Engineer II,Alex Sweetwater
+1401064670,"Exantus, Susan","Texas, Estados Unidos",13/05/1992,Female,Software Engineering,Engineer II,Alex Sweetwater
+1305057282,"Chan, Lin","California, Estados Unidos",30/11/1984,Female,Software Engineering,Engineer I,Alex Sweetwater
+1410070998,"Saar-Beckles, Melinda","California, Estados Unidos",5/06/1973,Female,Software Engineering,Engineer I,Alex Sweetwater
+1102024057,"True, Edward","Massachusetts, Estados Unidos",12/06/1988,Male,Software Engineering,Engineer II,Alex Sweetwater
+1307060083,"Baczenski, Rachael","Texas, Estados Unidos",30/11/1979,Female,Software Engineering,Engineer I,Alex Sweetwater
+1109029366,"Bernstein, Sean","Texas, Estados Unidos",21/12/1975,Male,Software Engineering,Engineer I,Alex Sweetwater
+1410071137,"Sparks, Taylor","Texas, Estados Unidos",19/07/1973,Female,Software Engineering,Engineer I,Alex Sweetwater
+1599991009,"Cockel, James","Texas, Estados Unidos",8/08/1982,Male,Software Engineering,Engineer I,Alex Sweetwater
+1001644719,"Sweetwater, Alex","Massachusetts, Estados Unidos",21/11/1961,Male,Software Engineering     ,Manager,Janet King
