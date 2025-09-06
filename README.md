@@ -58,4 +58,5 @@ El dashboard fue diseñado para un análisis básico del personal de la organiza
 
 ## 👤 Autor
 - Giancarlo Barrantes
+- Lima, Perú.
 - [Linkedin](https://www.linkedin.com/in/gb25/)
