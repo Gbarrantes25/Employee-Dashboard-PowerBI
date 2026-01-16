@@ -51,26 +51,8 @@ El dashboard fue diseñado para un análisis básico del personal de la organiza
 <details>
   <summary>Capturas</summary>
 
+  ![Animation3](https://github.com/user-attachments/assets/dd68c611-92c6-4d13-88df-e5a39e78466e)
 
-  Vista consolidada
-
-
-  <img width="1862" height="1050" alt="image" src="https://github.com/user-attachments/assets/81920c57-ec5f-4876-943f-a5e1ab567005" />
-
-
-  Género Femenino
-
-
-  <img width="1825" height="1046" alt="image" src="https://github.com/user-attachments/assets/6b71785f-57ee-478f-9167-401282d07167" />
-
-
-  Género masculino por Oficina Administrativa
-  
-
-  <img width="1810" height="1040" alt="image" src="https://github.com/user-attachments/assets/485ea7d6-5a39-42c9-a112-63c63bea30a5" />
-  
-
-  ![Animation3](https://github.com/user-attachments/assets/b67c9323-8636-4013-b729-77ba194594bd)
 
 </details>
 
