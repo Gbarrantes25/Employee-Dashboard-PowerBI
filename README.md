@@ -65,9 +65,13 @@ El dashboard fue diseñado para un análisis básico del personal de la organiza
 
 
   Género masculino por Oficina Administrativa
-
+  
 
   <img width="1810" height="1040" alt="image" src="https://github.com/user-attachments/assets/485ea7d6-5a39-42c9-a112-63c63bea30a5" />
+  
+
+  ![Animation3](https://github.com/user-attachments/assets/b67c9323-8636-4013-b729-77ba194594bd)
+
 </details>
 
 
