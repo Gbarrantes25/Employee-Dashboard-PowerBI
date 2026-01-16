@@ -33,6 +33,7 @@ El dashboard fue diseñado para un análisis básico del personal de la organiza
   ├── Fuente de Datos/                  # Contiene los archivos de datos de ejemplo (.CSV)
   ├── Dashboard (Boxy sections 6).svg   # Es el archivo de fondo del lienzo del proyecto.
   ├── Employee.pbix                     # Archivo que será ejecutado con Power BI Desktop.
+  |—— Demo.gif                          # Demo del proyecto.
   └── README.md                         # Este archivo
 </code>
 
