@@ -1,8 +1,13 @@
 # Employee Dashboard
 
 ## 📃 Descripción General
-El dashboard fue diseñado para un análisis básico del personal de la organización.
-
+Dashboard de Gestión de Empleados desarrollado en Power BI, diseñado para analizar y visualizar información clave del personal de una organización de manera centralizada e interactiva.
+Este proyecto transforma datos de recursos humanos en información accionable mediante:
+- 📊 3 Vistas Analíticas: Resumen General, Filtrado Female y Filtrado Male.
+- 👥 KPIs de Personal: +4 medidas DAX (total empleados, promedios de edad, evaluación y sueldo).
+- 🎯 Segmentación por Género: Análisis diferenciado de métricas por masculino/femenino.
+- 🖱️ Navegación Interactiva: Bookmarks para filtrado intuitivo entre páginas.
+- 🎨 Diseño Personalizado: Lienzo con fondo personalizado (Boxy sections).
 
 ## 📊 Contenido del proyecto
 - Página de resumen: Ofrece una vista consolidada de toda la infortación relevante de los empleados de la organización.
