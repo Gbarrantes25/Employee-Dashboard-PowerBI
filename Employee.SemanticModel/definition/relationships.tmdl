@@ -1,0 +1,17 @@
+relationship 24f64954-4df6-4c08-9f2e-fabbf2908504
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Empleados.Nacimiento
+	toColumn: LocalDateTable_6fb4ba24-4a10-4dbf-9eb5-7ef7824fe641.Date
+
+relationship 8b748461-7595-5ac6-6245-e811bc26b87c
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Empleados.ID
+	toColumn: Sueldos.ID
+
+relationship 86ad6019-8219-ee23-8442-c00374871dea
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Evaluacion.ID
+	toColumn: Empleados.ID
+

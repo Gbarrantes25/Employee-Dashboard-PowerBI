@@ -1,0 +1,107 @@
+table Empleados
+	lineageTag: 74191638-84e2-4228-9169-7f5a9746d72b
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 03fa8572-6965-4f17-a9d9-e881aeb1a41a
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nombre_Empleado
+		dataType: string
+		lineageTag: fe82a216-8a9a-4442-9f6e-d1549f040db1
+		summarizeBy: none
+		sourceColumn: Nombre_Empleado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Estado
+		dataType: string
+		lineageTag: 9a4949da-fe30-4dc0-8261-782787ad6754
+		dataCategory: StateOrProvince
+		summarizeBy: none
+		sourceColumn: Estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nacimiento
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 2a7693a5-39ed-4bbf-8a3b-a4e4ef5c6a63
+		summarizeBy: none
+		sourceColumn: Nacimiento
+
+		variation Variación
+			isDefault
+			relationship: 24f64954-4df6-4c08-9f2e-fabbf2908504
+			defaultHierarchy: LocalDateTable_6fb4ba24-4a10-4dbf-9eb5-7ef7824fe641.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Genero
+		dataType: string
+		lineageTag: 49fdbd31-acd3-444d-9bbb-70032893b7ca
+		summarizeBy: none
+		sourceColumn: Genero
+
+		annotation SummarizationSetBy = Automatic
+
+	column Departamento
+		dataType: string
+		lineageTag: 58da6dc6-edda-4065-8b7b-9172dc271687
+		summarizeBy: none
+		sourceColumn: Departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cargo
+		dataType: string
+		lineageTag: d59542c5-b2cb-4901-8f84-dda71ff7bf02
+		summarizeBy: none
+		sourceColumn: Cargo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Jefe
+		dataType: string
+		lineageTag: 47471c53-47fd-4247-8915-76a250e72192
+		summarizeBy: none
+		sourceColumn: Jefe
+
+		annotation SummarizationSetBy = Automatic
+
+	column Edad = (YEARFRAC(TODAY(),Empleados[Nacimiento]))
+		formatString: 0.00
+		lineageTag: 8682e1b2-ef50-4eed-916c-eeb2214a1ef6
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Rango Edad' = SWITCH(TRUE(),Empleados[Edad]<=20,"0-20",Empleados[Edad]<=40,"21-40",Empleados[Edad]<=60,"41-60",Empleados[Edad]<=80,"61-80",Empleados[Edad]>80,"81+")
+		lineageTag: a7ab0e13-70bb-46f6-afd9-56850e3e7087
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Empleados = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(Web.Contents("https://raw.githubusercontent.com/Gbarrantes25/Employee-Dashboard-PowerBI/refs/heads/main/Fuente%20de%20Datos/Empleados.csv"),[Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID", Int64.Type}, {"Nombre_Empleado", type text}, {"Estado", type text}, {"Nacimiento", Date.Type}, {"Genero", type text}, {"Departamento", type text}, {"Cargo", type text}, {"Jefe", type text}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Tipo cambiado", each ([ID] <> null))
+				in
+				    #"Filas filtradas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

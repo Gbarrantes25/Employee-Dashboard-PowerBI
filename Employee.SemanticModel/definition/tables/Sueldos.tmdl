@@ -1,0 +1,51 @@
+table Sueldos
+	lineageTag: a83d0250-1497-450f-94be-ddb7f0db3f7f
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: f2f9add7-0e8f-48ec-a11f-1f72aeb749b6
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sueldo
+		dataType: int64
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: a464dc2c-028d-4fc3-a086-93f400c375ea
+		summarizeBy: sum
+		sourceColumn: Sueldo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-US"}
+
+	column 'Rango Sueldo' = ```
+			
+			    SWITCH(TRUE(),
+			        Sueldos[Sueldo]<=40000,"0-40K",
+			        Sueldos[Sueldo]<=60000,"40K-60K",
+			        Sueldos[Sueldo]<=80000,"60K-80K",
+			        Sueldos[Sueldo]>80000,"80K+")
+			```
+		lineageTag: ebeb1c6b-2b92-483e-8d07-e37de79a8e48
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sueldos = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(Web.Contents("https://raw.githubusercontent.com/Gbarrantes25/Employee-Dashboard-PowerBI/refs/heads/main/Fuente%20de%20Datos/Sueldos.csv"),[Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID", Int64.Type}, {"Sueldo", Int64.Type}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Tipo cambiado", each ([ID] <> null))
+				in
+				    #"Filas filtradas"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

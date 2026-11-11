@@ -1,0 +1,23 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-PE
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Empleados","Evaluacion","Sueldos","Medidas"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Empleados
+ref table DateTableTemplate_37603ca6-bc52-4e42-bf66-d15bfae36cec
+ref table LocalDateTable_6fb4ba24-4a10-4dbf-9eb5-7ef7824fe641
+ref table Evaluacion
+ref table Sueldos
+ref table Medidas
+
+ref cultureInfo es-ES
+

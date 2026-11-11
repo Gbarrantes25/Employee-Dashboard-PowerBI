@@ -1,0 +1,209 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "74fd6f436547b170d472",
+  "position": {
+    "x": 590.62204135869115,
+    "y": 420.96171414334356,
+    "z": 6000,
+    "height": 230.8911219998339,
+    "width": 628.89128809899512,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Empleados"
+                    }
+                  },
+                  "Property": "Nombre_Empleado"
+                }
+              },
+              "queryRef": "Empleados.Nombre_Empleado",
+              "nativeQueryRef": "Nombre_Empleado"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Empleados"
+                    }
+                  },
+                  "Property": "Genero"
+                }
+              },
+              "queryRef": "Empleados.Genero",
+              "nativeQueryRef": "Genero"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Empleados"
+                    }
+                  },
+                  "Property": "Estado"
+                }
+              },
+              "queryRef": "Empleados.Estado",
+              "nativeQueryRef": "Estado"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Empleados"
+                    }
+                  },
+                  "Property": "Departamento"
+                }
+              },
+              "queryRef": "Empleados.Departamento",
+              "nativeQueryRef": "Departamento"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Empleados"
+                  }
+                },
+                "Property": "Nombre_Empleado"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": -0.5
+                    }
+                  }
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "214.762560967504D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Empleados.Estado"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "94.91156944455824D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Empleados.Genero"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "154.78846443506978D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Empleados.Nombre_Empleado"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'BoldHeader'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

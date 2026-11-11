@@ -1,0 +1,31 @@
+table Medidas
+	lineageTag: b358c673-38df-4ad8-a43f-cfe989e16cca
+
+	measure 'Total Empleados' = DISTINCTCOUNT(Empleados[ID])
+		formatString: 0
+		lineageTag: 51998519-14ed-4e7d-b736-f0f8dffd4b46
+
+	measure 'Promedio Sueldo' = AVERAGE(Sueldos[Sueldo])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 87ac1ff3-9285-46b5-ae03-c6671e8c4b28
+
+	measure 'Promedio Evaluación' = AVERAGE(Evaluacion[Evaluación])
+		formatString: 0.00
+		lineageTag: 5f7952c8-47b0-4f5e-9a3a-1335f823ae00
+
+	measure 'Promedio Edad' = AVERAGE(Empleados[Edad])
+		formatString: 0.00
+		lineageTag: 762caa73-f2d3-4d1e-9f9c-98e85405e621
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Columna1", type text}}),
+				    #"Columnas quitadas" = Table.RemoveColumns(#"Tipo cambiado",{"Columna1"})
+				in
+				    #"Columnas quitadas"
+
+	annotation PBI_ResultType = Table
+

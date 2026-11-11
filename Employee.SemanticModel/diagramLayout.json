@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 335.8974609375,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 374,
+            "y": 25
+          },
+          "nodeIndex": "Empleados",
+          "nodeLineageTag": "74191638-84e2-4228-9169-7f5a9746d72b",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 16
+          },
+          "nodeIndex": "Evaluacion",
+          "nodeLineageTag": "f37d67af-dd97-4484-b071-2fcce538de69",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 648,
+            "y": 0
+          },
+          "nodeIndex": "Sueldos",
+          "nodeLineageTag": "a83d0250-1497-450f-94be-ddb7f0db3f7f",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 964,
+            "y": 62
+          },
+          "nodeIndex": "Medidas",
+          "nodeLineageTag": "b358c673-38df-4ad8-a43f-cfe989e16cca",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

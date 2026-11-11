@@ -1,0 +1,49 @@
+table Evaluacion
+	lineageTag: f37d67af-dd97-4484-b071-2fcce538de69
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: e8479555-69bd-47bf-916d-5277e4d4d340
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Evaluación
+		dataType: double
+		formatString: 0.00
+		lineageTag: 5bcd1b05-039a-4486-9e36-f982f6c2d77e
+		summarizeBy: none
+		sourceColumn: Evaluación
+
+		annotation SummarizationSetBy = User
+
+	column 'Rango Evaluación' =
+			
+			SWITCH(TRUE(),
+			    Evaluacion[Evaluación]<=5.99,"0-5",
+			    Evaluacion[Evaluación]<=8.99,"6-8",
+			    Evaluacion[Evaluación]<=10,"9-10")
+		lineageTag: aa8c4213-7298-497f-a715-0ee85620b2db
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Evaluacion = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(Web.Contents("https://raw.githubusercontent.com/Gbarrantes25/Employee-Dashboard-PowerBI/refs/heads/main/Fuente%20de%20Datos/Evaluacion.csv"),[Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"ID", Int64.Type}, {"Evaluación", type number}}),
+				    #"Tipo cambiado1" = Table.TransformColumnTypes(#"Tipo cambiado",{{"Evaluación", Currency.Type}}),
+				    #"Filas filtradas" = Table.SelectRows(#"Tipo cambiado1", each ([ID] <> null)),
+				    #"Tipo cambiado2" = Table.TransformColumnTypes(#"Filas filtradas",{{"Evaluación", type number}})
+				in
+				    #"Tipo cambiado2"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
